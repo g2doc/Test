@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WordRecordActivity"
+    android:orientation="vertical">
+
+    <!-- 全部的大容器  竖排 -->
+    <LinearLayout
+        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#39A4FF"
+
+
+        >
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+
+            android:text="添加单词" />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="易错单词" />
+
+        <ImageView
+            android:id="@+id/word_find"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/search_main"/>
+    </LinearLayout>
+</LinearLayout>
