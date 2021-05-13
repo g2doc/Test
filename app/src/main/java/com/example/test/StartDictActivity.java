@@ -42,7 +42,6 @@ public class StartDictActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        System.out.println("Log11111");
 //        隐藏标题
         //requestWindowFeature(Window.FEATURE_NO_TITLE);
         /*隐藏任务栏

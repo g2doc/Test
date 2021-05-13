@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">   爱英语       </string>
     <string name="signin">     登入          </string>
-    <string name="register">   新用户        </string>
+    <string name="register">   注册        </string>
     <string name="speaker">    语音识别      </string>
 
 
@@ -18,7 +18,7 @@
     <string name="title_activity_login">LoginActivity</string>
 
     <string name="topText">NiuStu</string>
-    <string name="title"> NiuStu 学习软件 </string>
+    <string name="title"> Ntu 学习 </string>
 
 
 </resources>

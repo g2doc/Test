@@ -1,16 +1,10 @@
 package com.example.test.MyLib;
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 
 import com.example.test.R;
-import com.example.test.RegisterActivity;
-
-import java.lang.InterruptedException;
-import java.util.ArrayList;
-import java.util.PrimitiveIterator;
 
 
 
@@ -18,7 +12,6 @@ import java.util.PrimitiveIterator;
 /*
     自定义 AlertDialog 的使用类
     拥有好的兼容性，可供其他项目使用
-
  */
 
 public class AlertDialogUse{

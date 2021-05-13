@@ -90,20 +90,20 @@ public class RegisterActivity extends AppCompatActivity {
         ed_username          = (EditText) findViewById(R.id.edit_addname);
         ed_passQuestion      = (EditText) findViewById(R.id.edit_addpassques);
         ed_passAnswer        = (EditText) findViewById(R.id.edit_addpassans);
-        textshow              = (TextView) findViewById(R.id.textshow);
+        //textshow              = (TextView) findViewById(R.id.textshow);
 
 
         bt_clickregister     = (Button)   findViewById(R.id.bt_clickregister);
 
 
-        bt_show = (Button) findViewById(R.id.bt_show);
+        //bt_show = (Button) findViewById(R.id.bt_show);
 
-        bt_show.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                selectDatabase();
-            }
-        });
+//        bt_show.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                selectDatabase();
+//            }
+//        });
 
         bt_clickregister.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -170,7 +170,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     void runToLogin(){
-        Intent intent11 = new Intent(RegisterActivity.this, LoginActivity.class);
+        Intent intent11 = new Intent(RegisterActivity.this, MainActivity.class);
         intent11.putExtra("intent", "add ok");
         startActivity(intent11);
     }

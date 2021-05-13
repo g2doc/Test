@@ -44,8 +44,6 @@ public class DataActivity extends AppCompatActivity {
         // 为了显示 长文本 所作的修改
         TextView contentTV = (TextView) findViewById(R.id.text_show);
         contentTV.setMovementMethod(ScrollingMovementMethod.getInstance());
-
-
     }
 
 
@@ -55,7 +53,6 @@ public class DataActivity extends AppCompatActivity {
         bt_find     = (Button) findViewById(R.id.button_find);
         bt_delete   = (Button) findViewById(R.id.button_delete);
         bt_clear    = (Button) findViewById(R.id.button_clear);
-
         text_show       = ( TextView) findViewById(R.id.text_show);
         text_mess       = ( TextView) findViewById(R.id.text_mess);
         edit_username   = ( EditText) findViewById(R.id.edit_username);

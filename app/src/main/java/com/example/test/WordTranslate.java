@@ -15,19 +15,18 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.test.MyLib.translateapi.TransApi;
 
 import java.util.Map;
-
-/*
-    翻译功能界面
-    汉译英 and 英译汉
-    author: Zhang Hao
-    data:   2021:04:21
+/**
+ * @翻译功能界面
+ * @汉译英 and 英译汉
+ * @author: zhang hao
+ * @data: 2021-04-21
  */
 
 
 public class WordTranslate extends AppCompatActivity {
-    //设置appid和securitykey,这两项可以去百度翻译API上申请获得
-    private static final String APP_ID       = "20210424000799461";              //"appid";
-    private static final String SECURITY_KEY =  "Edy88vtKdpsyPwa4VQxM";       //"securityKey";
+    /*设置 appid和securitykey,这两项可以去百度翻译API上申请获得 */
+    private static final String APP_ID       = "20210424000799461";
+    private static final String SECURITY_KEY =  "Edy88vtKdpsyPwa4VQxM";
 
     /*
         start--> translateStart  对应开始翻译 button
